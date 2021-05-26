@@ -1,0 +1,24 @@
+
+
+function foo(param,     param2) {
+
+var varwithoutindent = "semicolon on end of line";
+
+//Lots of line breaks
+
+
+
+
+
+
+
+
+
+
+
+const curlybracketonsameline = true
+if(curlybracketonsameline)
+{
+
+    
+}}
