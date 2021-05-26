@@ -16,3 +16,5 @@
 - Name
 - Name
 - ...
+
+## Team pre sesssion checklist

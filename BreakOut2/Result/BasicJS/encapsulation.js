@@ -26,7 +26,7 @@ function Ram(param1) {
   function hiddenBam() {
     console.log('Nooooo!')
   }
-  //You can dicide what to return
+  //You can decide what to return
   return { bam, thisVar }
 }
 //The "new" keyword
