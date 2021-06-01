@@ -4,7 +4,7 @@
 In this sections you are creating the NPM workspace. The goal is to understand and partcise how you would get started. In the list that folows you will have the steps you can go trough.
 ## Folder from scratch 
 
-* Run `npm init` from "BreakOut1/Start" folder 
+* Run `npm init` from "BreakOut1/WorkFolder" folder 
 * install eslint as "dev dependency" `npm install eslint --save-dev`
 * add the following property in `package.json``
 ```json
@@ -40,5 +40,5 @@ console.log(process.env.foo)
 
 ```
 
-note: You have to figure out the exact location of the code yourself
-* 
+Note: You have to figure out the exact location of the code yourself
+

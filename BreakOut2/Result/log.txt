@@ -1,0 +1,10 @@
+Tue Jun 01 2021 15:40:10 GMT+0200 (centraleuropeisk sommartid)--My logger 
+Tue Jun 01 2021 15:40:10 GMT+0200 (centraleuropeisk sommartid)--My logger error 
+Tue Jun 01 2021 15:40:10 GMT+0200 (centraleuropeisk sommartid)--varfromfile 
+Tue Jun 01 2021 15:40:10 GMT+0200 (centraleuropeisk sommartid)--undefined 
+Tue Jun 01 2021 15:40:10 GMT+0200 (centraleuropeisk sommartid)--/usr/local/Cellar/node/15.6.0/bin/node,/Users/filip/Projects/EcoJS/BreakOut2/Result/index.js 
+Tue Jun 01 2021 15:40:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 1 then 
+Tue Jun 01 2021 15:40:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 2 then 
+Tue Jun 01 2021 15:40:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 3 then 
+Tue Jun 01 2021 15:40:41 GMT+0200 (centraleuropeisk sommartid)--Ready::1 
+Tue Jun 01 2021 15:40:41 GMT+0200 (centraleuropeisk sommartid)--Ready::1 

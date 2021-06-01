@@ -16,6 +16,15 @@
         {
             "type": "pwa-node",
             "request": "launch",
+            "name": "Dig",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/theDigger.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
             "name": "es modules",
             "skipFiles": [
                 "<node_internals>/**"

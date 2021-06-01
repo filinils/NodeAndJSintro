@@ -18,3 +18,10 @@
 - ...
 
 ## Team pre sesssion checklist
+
+1. Install VSCode
+2. Install NodeJS
+3. Email github account to Sigge
+4. Clone repo at: `git@github.com:filinils/NodeAndJSintro.git``
+5. Per team create a branch `<teamname>`
+6. Push and distribute the created branch among team members

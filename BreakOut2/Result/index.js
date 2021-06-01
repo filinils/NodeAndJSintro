@@ -45,12 +45,14 @@ async function someCodeThatTakesTime() {
 //HTTP server
 
 const server = http.createServer((req, res) => {
-  res.write('Eureka!!!')
+  if (req.method === 'GET') {
+    res.write('Eureka!!!')
+  }
   res.end()
 })
 
 server.on('connection', (req) => {
-  logger.log('Someone is trying to get us!!!!!!!!' + req.remoteAddress)
+  logger.log('Serving----->' + req.remoteAddress)
 })
 server.listen(8081)
 init()
