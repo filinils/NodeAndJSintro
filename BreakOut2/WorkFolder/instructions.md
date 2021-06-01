@@ -19,14 +19,14 @@ Result:
 ```
 How can `bar` execute `foo`? This is because they are created in the same scope `window` in this case. 
 
-## Composition vs iheritance
+## Composition vs inheritance
 
-In JS objects are smashed together rather then ineheriting properties. In the example above both `foo` and `bar`has all the properites of `window` but from a different scope.  
+In JS objects are smashed together rather then ineheriting properties. In the example above both `foo` and `bar` has all the properites of `window` but from a different scope.  
 
 ## Encapsulation
 To enable encapsulation it is important to realise the object chain and apply good strategies to not polute the global scope eg. `window` in a browser and `global` in Node. 
 
-In JS you always have to namespace and making sure that the same name for some action or property is not present in the parent chain of objects. If a property is not found in the "local" scope the runtime will continue to look for the property in the object above the local scope recursivly. 
+In JS you always have to namespace and make sure that the same name for some action or property is not present in the parent chain of objects. If a property is not found in the "local" scope the runtime will continue to look for the property in the object above the local scope recursivly. 
 
 * automatic props binding
 
@@ -59,7 +59,7 @@ What happens when the runtime "run" into the "new" keyword
 1) POFF a new object is created,
 2) the object is linked to another object,
 3) This is bound on the `this` keyword
-4) if the object don't have a return statement "this" is returned, aka the newly created object
+4) if the object doesn't have a return statement "this" is returned, aka the newly created object
 
 ## Splitting a program into several files
 
@@ -100,7 +100,7 @@ Example in [CommonJS modules](./module.js)
 
 ![Image](https://media-exp1.licdn.com/dms/image/C4D12AQHa1LsJMYtEyA/article-cover_image-shrink_600_2000/0/1520167979283?e=1625702400&v=beta&t=ABQcWNRowsERddmVa29P2o6MvXzJQDI9pc9m70RriI8)
 
-JS is one threded witch means that even if several asynchronus operations are running at the same time the runtime will only take up one thred from the CPU.
+JS is one threaded which means that even if several asynchronus operations are running at the same time the runtime will only take up one thread from the CPU.
 
 A simple example of this effect
 ```js
@@ -122,13 +122,13 @@ setTimeout(cb,2000)
 }
 
 ```
-The asynchronus nature of JS has caused developer headache for decades aka `"callback hell"`,which has led to some new strategies to write code that looks more like synchronous code with the `Promise` as well as the `async` keyword. This way the developer can control in what order the return should be handled. 
+The asynchronous nature of JS has caused developers headache for decades aka `"callback hell"`, which has led to some new strategies to write code that looks more like synchronous code with the `Promise` as well as the `async` keyword. This way the developer can control in what order the return should be handled. 
 
 
 ## Utilizing built in functionality in Node
 
 ### Reading and writing to file
-Node has a built in file access library called `file system` ofted abriviated `fs`
+Node has a built in file access library called `file system` often abbreviated `fs`
 
 The documentation can be found here: [Node doc](https://nodejs.org/api/fs.html)
 
@@ -143,7 +143,7 @@ fs.readFile("example.txt",options)
                     })
 
 
-//You can also read files synchronous
+//You can also read files synchronously
 
 
 import * from fs from "fs"
@@ -168,7 +168,7 @@ Here is an example that returns `"hello"` on a `GET` request
 const server = http.createServer((req, res) => {
 
     if(req.method === "GET"){
-	res.write("hello")
+	    res.write("hello")
     }
     res.end()
 
@@ -182,7 +182,7 @@ server.listen(8080)
 # Exercise checklist
 
 1) Create a logger that writes(appends) logs to a simple text file.
-    * The logger should be a module in it's own file
+    * The logger should be a module in its own file
     * It should only reveal logging functions eg.  `"log"`, `"debug"` and `"error"` all other inner functionality need to be hidden.
 2) Create a mock db call with `setTimeout` 
     * optional: the "db" can be stored in another module
