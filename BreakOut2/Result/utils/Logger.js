@@ -18,5 +18,5 @@ export default (() => {
 		console.log(fileBuffer.toString())
 	}
 
-	return { log, error, printLog }
+	return { log, error, printLog } 
 })()
