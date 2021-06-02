@@ -91,10 +91,6 @@ Example in [CommonJS modules](./module.js)
 
 * Import example: [Example](./esImporter.js)
 
-
-## Dynamic typing
-
-
 ## Async with JS
 
 
