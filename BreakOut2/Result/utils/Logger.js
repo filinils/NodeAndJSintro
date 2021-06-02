@@ -7,6 +7,8 @@ export default (() => {
 		fs.appendFileSync(file, `${Date().toString()}--${message} \n`)
 	}
 
+	//Test
+
 	function error(message, error) {
 		console.error(error, message)
 		fs.appendFileSync(file, `${Date().toString()}--${message} \n`)
