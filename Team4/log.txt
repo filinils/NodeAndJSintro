@@ -1,0 +1,21 @@
+Tue Jun 08 2021 20:07:18 GMT+0200 (Central European Summer Time)--Logging a Message... 
+Tue Jun 08 2021 20:07:18 GMT+0200 (Central European Summer Time)--Error 
+Tue Jun 08 2021 20:07:19 GMT+0200 (Central European Summer Time)--Async 1 
+Tue Jun 08 2021 20:07:19 GMT+0200 (Central European Summer Time)--Async 2 
+Tue Jun 08 2021 20:07:19 GMT+0200 (Central European Summer Time)--Async 3 
+Tue Jun 08 2021 20:07:28 GMT+0200 (Central European Summer Time)--Serving the client----->::ffff:127.0.0.1
+Hurray!!!Client-Server is working! 
+Tue Jun 08 2021 20:09:11 GMT+0200 (Central European Summer Time)--Logging a Message... 
+Tue Jun 08 2021 20:09:11 GMT+0200 (Central European Summer Time)--Error 
+Tue Jun 08 2021 20:09:11 GMT+0200 (Central European Summer Time)--reading from a file... 
+Tue Jun 08 2021 20:09:12 GMT+0200 (Central European Summer Time)--Async 1 
+Tue Jun 08 2021 20:09:12 GMT+0200 (Central European Summer Time)--Async 2 
+Tue Jun 08 2021 20:09:12 GMT+0200 (Central European Summer Time)--Async 3 
+Tue Jun 08 2021 20:10:01 GMT+0200 (Central European Summer Time)--Logging a Message... 
+Tue Jun 08 2021 20:10:01 GMT+0200 (Central European Summer Time)--Error 
+Tue Jun 08 2021 20:10:01 GMT+0200 (Central European Summer Time)--Reading from a .env file... 
+Tue Jun 08 2021 20:10:02 GMT+0200 (Central European Summer Time)--Async 1 
+Tue Jun 08 2021 20:10:02 GMT+0200 (Central European Summer Time)--Async 2 
+Tue Jun 08 2021 20:10:02 GMT+0200 (Central European Summer Time)--Async 3 
+Tue Jun 08 2021 20:10:32 GMT+0200 (Central European Summer Time)--Serving the client----->::ffff:127.0.0.1
+Hurray!!! Client-Server is working! 
