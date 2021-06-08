@@ -1,7 +1,7 @@
-import logger from './utils/Logger.js'
-import http from 'http'
-import dotenv from 'dotenv'
-import Prom from './Prom.js'
+const logger = require('./utils/Logger.js');
+const http = require('http');
+const dotenv = require('dotenv');
+const Prom = require('./Prom.js');
 
 dotenv.config()
 
