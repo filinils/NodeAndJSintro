@@ -7,11 +7,11 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "NPM Runtime",
+            "name": "BreakOut2",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/NPMRuntime/index.js"
+            "program": "${workspaceFolder}/BreakOut2/Result/index.js"
         },
         {
             "type": "pwa-node",
