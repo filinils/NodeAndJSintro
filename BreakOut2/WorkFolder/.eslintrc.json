@@ -14,7 +14,7 @@
             "error",
             "tab"
         ],
-        "linebreak-style": [            ,
+        "linebreak-style": [
             "unix",
             "error"
         ],
