@@ -1,7 +1,7 @@
-import logger from './utils/Logger.js'
+import logger from './utils/Logger.mjs'
 import http from 'http'
 import dotenv from 'dotenv'
-import Prom from './Prom.js'
+import Prom from './Prom.mjs'
 
 dotenv.config()
 

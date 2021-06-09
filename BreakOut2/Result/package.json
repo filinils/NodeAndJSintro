@@ -1,16 +1,16 @@
 {
   "name": "npmruntime",
   "version": "1.0.0",
+  "type": "module",
   "description": "a simple runtime in node",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-modules index.mjs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^9.0.2",
     "eslint": "^7.26.0"
-  },
-  "type": "module"
+  }
 }

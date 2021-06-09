@@ -8,3 +8,19 @@ Tue Jun 01 2021 15:40:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func 
 Tue Jun 01 2021 15:40:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 3 then 
 Tue Jun 01 2021 15:40:41 GMT+0200 (centraleuropeisk sommartid)--Ready::1 
 Tue Jun 01 2021 15:40:41 GMT+0200 (centraleuropeisk sommartid)--Ready::1 
+Wed Jun 09 2021 09:30:27 GMT+0200 (Central European Summer Time)--My logger 
+Wed Jun 09 2021 09:30:27 GMT+0200 (Central European Summer Time)--My logger error 
+Wed Jun 09 2021 09:30:27 GMT+0200 (Central European Summer Time)--varfromfile 
+Wed Jun 09 2021 09:30:27 GMT+0200 (Central European Summer Time)--undefined 
+Wed Jun 09 2021 09:30:27 GMT+0200 (Central European Summer Time)--C:\Program Files\nodejs\node.exe,C:\Users\prraj12\Desktop\workspace\availabilitymanagement\NodeAndJSintro\BreakOut2\Result\index.mjs 
+Wed Jun 09 2021 09:30:28 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 1 then 
+Wed Jun 09 2021 09:30:28 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 2 then 
+Wed Jun 09 2021 09:30:28 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 3 then 
+Wed Jun 09 2021 11:39:18 GMT+0200 (Central European Summer Time)--My logger 
+Wed Jun 09 2021 11:39:18 GMT+0200 (Central European Summer Time)--My logger error 
+Wed Jun 09 2021 11:39:18 GMT+0200 (Central European Summer Time)--varfromfile 
+Wed Jun 09 2021 11:39:18 GMT+0200 (Central European Summer Time)--undefined 
+Wed Jun 09 2021 11:39:18 GMT+0200 (Central European Summer Time)--C:\Program Files\nodejs\node.exe,C:\Users\prraj12\Desktop\NodeAndJSintro\BreakOut2\Result\index.mjs 
+Wed Jun 09 2021 11:39:19 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 1 then 
+Wed Jun 09 2021 11:39:19 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 2 then 
+Wed Jun 09 2021 11:39:19 GMT+0200 (Central European Summer Time)--my 1 async func is finished and 3 then 
