@@ -1,0 +1,19 @@
+{
+  "name": "npmruntime",
+  "version": "1.0.0",
+  "description": "a simple runtime in node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^9.0.2",
+    "eslint": "^7.26.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
