@@ -1,0 +1,3 @@
+Thu Jun 10 2021 16:41:33 GMT+0200 (centraleuropeisk sommartid): Application is running and writing logs...
+Thu Jun 10 2021 16:41:33 GMT+0200 (centraleuropeisk sommartid): An error has occurred with error code - OP_EX_4042
+Thu Jun 10 2021 16:41:36 GMT+0200 (centraleuropeisk sommartid): Server is up and running.

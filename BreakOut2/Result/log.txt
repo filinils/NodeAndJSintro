@@ -26,3 +26,11 @@ Wed Jun 02 2021 16:54:10 GMT+0200 (centraleuropeisk sommartid)--/usr/local/Cella
 Wed Jun 02 2021 16:54:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 1 then 
 Wed Jun 02 2021 16:54:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 2 then 
 Wed Jun 02 2021 16:54:11 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 3 then 
+Thu Jun 10 2021 16:40:48 GMT+0200 (centraleuropeisk sommartid)--My logger 
+Thu Jun 10 2021 16:40:48 GMT+0200 (centraleuropeisk sommartid)--My logger error 
+Thu Jun 10 2021 16:40:48 GMT+0200 (centraleuropeisk sommartid)--varfromfile 
+Thu Jun 10 2021 16:40:48 GMT+0200 (centraleuropeisk sommartid)--undefined 
+Thu Jun 10 2021 16:40:48 GMT+0200 (centraleuropeisk sommartid)--C:\Program Files\nodejs\node.exe,C:\NodeClass\NodeAndJSintro\BreakOut2\Result\index.js 
+Thu Jun 10 2021 16:40:49 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 1 then 
+Thu Jun 10 2021 16:40:49 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 2 then 
+Thu Jun 10 2021 16:40:49 GMT+0200 (centraleuropeisk sommartid)--my 1 async func is finished and 3 then 

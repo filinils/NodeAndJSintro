@@ -1,12 +1,12 @@
-import { getTodos } from '../services/dbService.js'
-import log from '../utils/logger.js'
+import { getTodos } from "../services/dbService.js";
+import * as log from "../utils/logger.js";
 
 export function create(entity) {}
 export async function read() {
   try {
-    return await getTodos()
+    return await getTodos();
   } catch (error) {
-    log.error(error)
+    log.error(error);
   }
 }
 export function update(id) {}
