@@ -5,6 +5,7 @@
 2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install)
 3. Copy the code below into a file in the root of the NodeJS server (same level as the package.json) and name it app.yaml
 4. Open up your terminal and run `gcloud auth login` to authenticate your terminal.
+5. Run `gcloud init` to setup what project etc. to use.
 5. Make sure that you have a start script in `package.json`.
 5. When standing in the root of the NodeJS server run `gcloud app deploy` in your terminal and follow the instructions.
 6.  The first time you do this it might give you an error complaining about permissions. If this happens you should go to the IAM & Admin section of the GCP portal. Add the following roles to the account stated in the terminal xyz@cloudbuild.gserviceaccount.com 
