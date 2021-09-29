@@ -14,6 +14,7 @@ handlers:
   redirect_http_response_code: 301
   script: auto
 ```
+4. Go to the GCP Console and go to App Engine. Press "Create Application" and select a region (E.g. Europe North/West)
 4. Open up your terminal and run `gcloud auth login` to authenticate your terminal.
 5. Run `gcloud init` to setup what project etc. to use.
 5. Make sure that you have a start script in `package.json`.
