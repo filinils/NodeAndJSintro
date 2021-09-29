@@ -4,6 +4,16 @@
 1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session.
 2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install)
 3. Copy the code below into a file in the root of the NodeJS server (same level as the package.json) and name it app.yaml
+```yaml
+runtime: nodejs16 # or another supported version
+instance_class: F2
+handlers:
+
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
+```
 4. Open up your terminal and run `gcloud auth login` to authenticate your terminal.
 5. Run `gcloud init` to setup what project etc. to use.
 5. Make sure that you have a start script in `package.json`.
@@ -16,16 +26,6 @@
 7. Run the `gcloud app deploy` command once again.
 8. Verify that it got deployed and try it out via the public URL printed in the terminal. 
 
-```yaml
-runtime: nodejs16 # or another supported version
-instance_class: F2
-handlers:
-
-- url: /.*
-  secure: always
-  redirect_http_response_code: 301
-  script: auto
-```
 
 
 ## Breakout 2
