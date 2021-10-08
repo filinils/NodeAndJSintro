@@ -33,7 +33,7 @@ handlers:
 
 1. Make sure that you are standing in the root directory of the client application.
 2. Run `npm run build` to build the application.
-3. Copy the code below into a file in the root of the NodeJS server (same level as the package.json) and name it app.yaml
+3. Copy the code below into a file in the root of the React App (same level as the package.json) and name it app.yaml
 
 
 ```yaml
