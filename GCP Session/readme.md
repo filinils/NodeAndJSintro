@@ -1,7 +1,7 @@
 
 ## Breakout 1
 
-1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session. (I've done this for you :) )
+1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session. (Not a requirement for the session but if you want to try it out on your own later on)
 2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install) Requires Python.
 3. Copy the code below into a file in the root of the NodeJS server (same level as the package.json) and name it app.yaml
 ```yaml
