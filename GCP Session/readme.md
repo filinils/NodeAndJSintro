@@ -1,12 +1,13 @@
 
 ## Breakout 1
 
-1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session.
-2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install)
+1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session. (I've done this for you :) )
+2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install) Requires Python.
 3. Copy the code below into a file in the root of the NodeJS server (same level as the package.json) and name it app.yaml
 ```yaml
 runtime: nodejs16 # or another supported version
 instance_class: F2
+service: gcp-booster-api
 handlers:
 
 - url: /.*
@@ -25,14 +26,14 @@ handlers:
 - Storage Object Viewer
 - Storage Object Creator
 7. Run the `gcloud app deploy` command once again.
-8. Verify that it got deployed and try it out via the public URL printed in the terminal. 
+8. Verify that it got deployed and try it out via the public URL printed in the terminal or by running `gcloud app browse -s servicename`. 
 
 
 
 ## Breakout 2
 
 1. Make sure that you are standing in the root directory of the client application.
-2. Run `npm run build` to build the application.
+2. Run `npm run build` or equivalent script to build the application. Needs to match the path set in the yaml below.
 3. Copy the code below into a file in the root of the React App (same level as the package.json) and name it app.yaml
 
 
@@ -47,8 +48,8 @@ handlers:
   static_files: build/index.html
   upload: build/index.html
 ```
-4. Run the `gcloud app deploy` command.
-5. Verify that the API works when hitting it directly via the browser.
+4. Run the `gcloud app deploy` command and follow any instructions.
+5. Verify that the client works when hitting it directly via the browser.
 6. Verify that the client successfully sent a request to the API which is displayed in the client application. 
 7. If nothing happens and you get CORS errors in the client you need to configure cors in the API (NOT THE CLIENT).
 
