@@ -7,7 +7,7 @@
 ```yaml
 runtime: nodejs16 # or another supported version
 instance_class: F2
-service: gcp-booster-api
+service: gcp-booster-${nameOfService}
 handlers:
 
 - url: /.*
@@ -39,7 +39,7 @@ handlers:
 
 ```yaml
 runtime: nodejs16  # or another supported version
-service: gcp-booster-client
+service: gcp-booster-${nameOfService}
 handlers:
 - url: /(.*\..+)$
   static_files: build/\1
