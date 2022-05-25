@@ -1,5 +1,5 @@
 
-## Breakout 1
+## Breakout 1 (Node API)
 
 1. Create a trial account at GCP. You need to provide payment but it won't charge any money after the trial period. Only one in each group needs to do this, but I encourage all of you to try it out after the session. (Not a requirement for the session but if you want to try it out on your own later on)
 2. If you haven't installed it already, go install the [gcloud CLI](https://cloud.google.com/sdk/docs/install) Requires Python.
@@ -30,7 +30,7 @@ handlers:
 
 
 
-## Breakout 2
+## Breakout 2 (React Frontend)
 
 1. Make sure that you are standing in the root directory of the client application.
 2. Run `npm run build` or equivalent script to build the application. Needs to match the path set in the yaml below.
